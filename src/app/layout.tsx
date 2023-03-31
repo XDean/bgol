@@ -1,4 +1,5 @@
 import './globals.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,14 +10,14 @@ export default function RootLayout(
   {
     children,
   }: {
-    children: React.ReactNode
+    children: ReactNode
   },
 ) {
   return (
     <html lang="en">
     <body>
     <div
-      className={'absolute inset-0 bg-hive'}
+      className={'absolute inset-0 bg-chess'}
     />
     {children}
     </body>
