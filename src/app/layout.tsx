@@ -17,7 +17,7 @@ export default function RootLayout(
     <html lang="en">
     <body>
     <div
-      className={'absolute inset-0 bg-chess'}
+      className={'absolute inset-0 bg-chess z-[-1]'}
     />
     {children}
     </body>
